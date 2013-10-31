@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--File name: contact_me.php
+	Author name: Nav Bhullar
+	File description: contact_me.html contains the code for the contact_me page of my portfolio web site,
+	it takes user to my various social networking profiles and also gives them opportunity to call me and email me.
+	External stylesheet, php and javascript files are included. -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Contact Me</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="http://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="http://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="http://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header"> 
+	&nbsp;
+    </div>
+    <div data-role="content" style="padding:0">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="index.html" data-transition="fade" data-theme="b" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about_me.html" data-transition="fade" data-theme="b" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="contact_me" data-transition="fade" data-theme="b" data-icon="grid"
+                        class="ui-btn-active ui-state-persist">
+						Contact Me
+                    </a>
+                </li>
+                <li>
+                   <a href="#" data-transition="fade" data-theme="b" data-icon="back" onclick="history.go(-1);return false;">
+                        Back
+                    </a>
+                    
+                </li>
+            </ul>
+        </div>
+	</div>
+		<div class="jumbotron">
+    <div class="container">
+ 		<h2>Contact Info</h2>
+		<div>
+          For more information about my work and to discuss how I an help you with your web projects,
+		  please contact me at:<br />
+		  <ul>
+			  <li><strong>Email:</strong> <a href="mailto:navbhullar86@gmail.com">navbhullar86@gmail.com</a></li>
+			  <li><strong>Phone:</strong> <a href="tel:705-500-5000">(705) 500-5000</a></li>
+		  </ul>
+		  </div>
+		<h2>Follow Me</h2>
+		<nav class="footernav">
+				<a target="_blank" id="facebook" href="https://www.facebook.com/profile.php?id=100002932110714" title="My Facebook"><img src="images/logo_facebook.jpg" alt="facebook" /></a>
+				<a target="_blank" id="twitter" href="https://twitter.com/navbhullar89" title="My Twitter"><img src="images/Twitter20Logo.jpg" alt="twitter"  /></a>
+				<a target="_blank" id="linkedIn" href="http://www.linkedin.com/pub/nav-bhullar/80/382/99a" Title="My LinkedIn"><img src="images/linkedin_symbol.jpg" alt="LinkedIn"  /></a>
+				<a target="_blank" id="github" href="https://github.com/navbhullar89" title="My GitHub"><img src="images/GitHub-Mark.png" alt="GitHub"  /></a>
+			</nav>
+		<div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 Nav Bhullar
+			<br /><a href="http://webdesign4.georgianc.on.ca/~200246735/comp2068/assign1/" class="ui-btn-center">Full Site</a>
+        </h3>
+    </div>
+	  </div>
+	  </div>
+	  </div>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--File name: projects.html
+	Author name: Nav Bhullar
+	File description: projects.html contains the code for the project.html page of my portfolio web site,
+	it takes user to my various projects which I have done in past. Images take user further to the details of my projects.
+	External stylesheet, php and javascript files are included. -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Projects</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="http://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="http://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="http://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="http://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
+<body>
+    <div data-theme="a" data-role="header">
+        &nbsp;
+    </div>
+    <div data-role="content" style="padding:0">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="index.html" data-transition="fade" data-theme="b" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about_me.html" data-transition="fade" data-theme="b" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="contact_me" data-transition="fade" data-theme="b" data-icon="grid">
+                        Contact Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-transition="fade" data-theme="b" data-icon="back" onclick="history.go(-1);return false;">
+                        Back
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+	<div class="jumbotron">
+	<div class="container">
+      <div class="row">
+	  <h2>Projects</h2>
+        <div class="col-lg-4">
+		
+          <a href = "http://webdesign4.georgianc.on.ca/~200246735/project1-inc/index.php"><img src ="images/portfolio-cards-site-thumb.png" alt="portfolio"></a> 
+		  <p>As my project requirement I have made a website of car's dealership when internet was not in practice i.e. of 19960's. Engine was improved and life was made easier but due to lack in technology there was no internet available that time. So just thinking myself to be in 1960s and building a site fpr old cars was fun.</p>
+        </div>
+        <div class="col-lg-4">
+		  <a href = "http://www.youtube.com/watch?v=nALHDTacSv4"><img src = "images/Home_Arduino.jpg" alt ="Arduino Home Automation"></a>
+          
+          <p>Today with the advancement in technology life has become so easy. We can find every single thing with a single click. To make it more easier I tried to make a home automation system with the help of Arduino. I made a simple you tube video and post the entire code as an open source on github. Lights and fan are controlled automatically by detecting the light and temperature respectively. You can also control them with a remote control.</p>
+		  
+       </div>
+        <div class="col-lg-4">
+          <a href = "http://webdesign4.georgianc.on.ca/~200246735/comp1006/assign1/"><img src = "images/download.jpg" alt ="web design"></a>
+          <p>Everyone loves to stay organised. It's difficult when there are several family members and only one person have to grocery. So instead of making a grocery list of paper in this technical world I made a simple website for a family to write there grocery list and it will be automatically send to their email. other person can see it and make changes if necessary.</p>
+          
+        </div>
+      </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 Nav Bhullar
+			<br /><a href="http://webdesign4.georgianc.on.ca/~200246735/comp2068/assign1/" class="ui-btn-center">Full Site</a>
+        </h3>
+    </div>
+</div>
+</div>
+</body>
+</html>

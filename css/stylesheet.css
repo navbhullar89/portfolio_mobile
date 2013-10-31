@@ -1,0 +1,51 @@
+.container {padding: 0px 15px 0 15px;}
+.container h2{padding: 0px; margin: 0px; margin-top:10px;}
+.container h3{padding: 0px; margin: 0px; margin-top:5px;}
+.container p{margin:0px; padding-bottom: 20px;}
+nav.footernav{padding: 0px; margin: 0px;}
+
+a#prev-image-btn, a#next-image-btn {width: 80px; font-size:14px;}
+a#next-image-btn {margin-left: 92px;}
+
+img.projects-button{padding:2px; background: #aaa;}
+img.services-button{padding:5px; background: #aaa; margin-left:15px; }
+	
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.btn-primary ,
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
